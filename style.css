@@ -11,3 +11,6 @@ body{
     background-color: var(--cor-fundo);
     color: var(--branco-principal);
 }
+.principal{
+    background-image: url(Background.png);
+}
