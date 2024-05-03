@@ -1,34 +1,43 @@
 :root{
-    --branco-principal: #FFFFFF;
-
-    --cinza-secundario: #c0c0c0;
-
+    --branco-principa: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
     --cor-fundo: #00030C;
-    
-    --botão-vermelho: #167BF7;
+
 }
 body{
     background-color: var(--cor-fundo);
-    color: var(--branco-principal);
+    color: var(--branco-principa);
+    
 }
 .principal{
-    background-image: url(img/Background.png); 
+    background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.container-botão{
-    background-color: var(--botão-vermelho);
+.container-botao{
+    background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
-    color: var(--branco-principal);
+    color: var(--branco-principa);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
-.botão-secundario{
+.botao-secundario{
     background: transparent;
-    border: 2px solid var(--botão-vermelho);
+    border: 2px solid var(--botao-azul);
+}
+.container-img{
+    margin: 1em 0 2em 0;
+}
+.container-caixa{
+    margin: 0 6em;
 }
